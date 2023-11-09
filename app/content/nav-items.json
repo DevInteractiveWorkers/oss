@@ -1,0 +1,21 @@
+{
+    "content":[
+        {
+            "title":"Service",
+            "link":"/service"
+        },
+        {
+            "title":"Industries",
+            "link":"/industries"
+        },
+        {
+            "title":"Services areas",
+            "link":"/services"
+        },
+        {
+            "title":"Company",
+            "link":"/company"
+        }
+
+    ]
+}

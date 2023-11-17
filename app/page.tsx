@@ -67,7 +67,7 @@ export default async function Home() {
 
       <section className='bg-black'>
         <article className='flex flex-col sm:flex-row justify-evenly items-center gap-8 p-8 lg:py-36 lg:px-12'>
-          <div className=' lg:basis-3/6'>
+          <div className=' basis-3/6'>
             <h3 className=' text-2xl lg:text-6xl font-bebas'>SECURITY GUARD COMPANY portland, oregon</h3>
             <p className=' text-sm lg:text-2xl'> <span className='title font-bold'>On Service Security (OSS)</span> is a full-service security guard company in Portland providing services using uniformed armed and unarmed security officers for residential, retail, industrial, and commercial properties.
 

@@ -9,7 +9,7 @@ import { NavbarCollapse } from 'flowbite-react/lib/esm/components/Navbar/NavbarC
 import NavLinks from '../../content/nav-items.json'
 import { NavbarLink } from 'flowbite-react/lib/esm/components/Navbar/NavbarLink'
 
-const NavBar = () => {
+const NavBar = ({className}:{className?:string}) => {
     const content = NavLinks.content
     const [isScrolled, setIsScrolled] = useState(false)
 
@@ -24,7 +24,7 @@ const NavBar = () => {
     
     
     return (
-        <Navbar className={`relative z-50 ${isScrolled ? 'bg-[#353535]' : 'bg-transparent'} transition-all duration-300 fixed w-full p-4`}>
+        <Navbar className={`z-50 ${isScrolled ? 'bg-[#353535]' : 'bg-transparent'} ${className} transition-all duration-300 fixed w-full p-4`}>
             <NavbarBrand as={Link} href='/'>
                 <Image src={'/logo.png'} width={107} height={96} alt='One Service Security Logo'></Image>
             </NavbarBrand>

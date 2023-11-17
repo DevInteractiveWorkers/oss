@@ -3,6 +3,7 @@ import { Montserrat } from 'next/font/google'
 import './globals.css'
 import NavBar from './components/navbar/nav'
 import { Suspense } from 'react'
+import FooterComponent from './components/footer/footer'
 
 const montserrat = Montserrat({subsets:['latin']})
 
@@ -20,9 +21,12 @@ export default async function RootLayout({
     <html lang="en">
       <body className={`relative ${montserrat.className}`}>
         <Suspense>
-          <NavBar></NavBar>
+          <NavBar className='relative'></NavBar>
         </Suspense>
         {children}
+        <Suspense>
+          <FooterComponent></FooterComponent>
+        </Suspense>
       </body>
     </html>
   )

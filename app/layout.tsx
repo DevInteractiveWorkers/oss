@@ -7,7 +7,7 @@ import { Suspense } from 'react'
 const montserrat = Montserrat({subsets:['latin']})
 
 export const metadata: Metadata = {
-  title: 'One Service Security',
+  title: 'On Service Security',
   description: 'Guard up',
 }
 
@@ -19,7 +19,6 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <body className={`relative ${montserrat.className}`}>
-        <div className='relative min-h-[3vh] bg-[#231F20]'></div>
         <Suspense>
           <NavBar></NavBar>
         </Suspense>

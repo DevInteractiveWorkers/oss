@@ -3,8 +3,9 @@
 @tailwind utilities;
 
 :root{
-  background-color: rgb(80, 80, 95);
+  background-color: rgb(255, 255, 255);
   color: white;
+  scroll-behavior: smooth;
 }
 
 @font-face {
@@ -18,4 +19,9 @@
 
 .title{
   color:#F0B631
+}
+
+.radial-gradient{
+  background: radial-gradient(50% 50% at 50% 50%, #231F20 0%, rgba(35, 31, 32, 0.54) 46.88%, rgba(53, 53, 53, 0.00) 100%);
+  mix-blend-mode: overlay;
 }

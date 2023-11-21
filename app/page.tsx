@@ -63,10 +63,10 @@ export default async function Home() {
 
       <ServiceBanner image='/unarmed-guard.png' direction={false} content={content[0]}></ServiceBanner>
       <ServiceBanner image='/armed-guard.png' direction={true} content={content[1]}></ServiceBanner>
-      <ServiceBanner image='/unarmed-guard.png' direction={false} content={content[2]}></ServiceBanner>
+      <ServiceBanner image='/patrol.png' direction={false} content={content[2]}></ServiceBanner>
 
-      <section className='bg-black'>
-        <article className='flex flex-col sm:flex-row justify-evenly items-center gap-8 p-8 lg:py-36 lg:px-12'>
+      <section className=' bg-black mt-4 md:mt-36 overflow-hidden py-12 md:py-24 bg-no-repeat bg-cover flex items-center justify-center' style={{backgroundImage:"url('/guard-truck.png')"}}>
+        <article className='flex flex-col sm:flex-row justify-evenly items-center min-h-[500px] gap-8 p-8 lg:py-36 lg:pr-28'>
           <div className=' basis-3/6'>
             <h3 className=' text-2xl lg:text-6xl font-bebas'>SECURITY GUARD COMPANY portland, oregon</h3>
             <p className=' text-sm lg:text-2xl'> <span className='title font-bold'>On Service Security (OSS)</span> is a full-service security guard company in Portland providing services using uniformed armed and unarmed security officers for residential, retail, industrial, and commercial properties.

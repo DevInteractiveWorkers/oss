@@ -26,7 +26,7 @@ const NavBar = ({className}:{className?:string}) => {
     return (
         <Navbar className={`z-50 ${isScrolled ? 'bg-[#353535]' : 'bg-transparent'} ${className} transition-all duration-300 fixed w-full p-4`}>
             <NavbarBrand className='basis-3/12' as={Link} href='/'>
-                <Image className=' max-w-[200px] md:max-w-none md:w-full' src={'/logo.png'} width={457} height={106} alt='One Service Security Logo'></Image>
+                <Image className=' max-w-[200px] md:max-w-none md:w-full' src={'/logo.webp'} width={457} height={106} alt='One Service Security Logo'></Image>
             </NavbarBrand>
             <NavbarToggle className='shrink-0' />
             <NavbarCollapse className='w-full transition-all duration-200'>

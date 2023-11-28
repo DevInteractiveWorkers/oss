@@ -9,7 +9,7 @@ const FooterComponent = () => {
   return (
     <Footer container className='bg-[#231F20] rounded-none py-8'>
       <div className="md:w-11/12 xl:px-24 mx-auto text-center flex flex-col md:flex-row justify-center items-center">
-        <Image className='w-2/6 md:w-1/6' src={'/logo.png'} width={214} height={192} alt='One Service Security Logo'></Image>
+        <Image className='w-3/6 md:w-1/6' src={'/isotype.webp'} width={214} height={192} alt='One Service Security Logo'></Image>
         <div className="w-8/12 mx-auto flex flex-col gap-5 py-12 justify-center sm:items-center sm:justify-center">
           <Footer.LinkGroup className='text-white font-bebas uppercase gap-4 text-center justify-center md:justify-between w-full'>
             {content.map((navlink) => {

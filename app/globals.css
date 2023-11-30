@@ -26,3 +26,61 @@
   background: radial-gradient(50% 50% at 50% 50%, #231F20 0%, rgba(35, 31, 32, 0.54) 46.88%, rgba(53, 53, 53, 0.00) 100%);
   mix-blend-mode: overlay;
 }
+
+
+path {
+  stroke-dasharray: 400%;
+  stroke-dashoffset: 400%;
+  animation: draw 4.5s ease-in-out forwards;
+}
+
+.drawShadow{
+  box-shadow: 0px 0px 26px 53px rgba(35,31,32,0.75) inset;
+-webkit-box-shadow: 0px 0px 26px 53px rgba(35,31,32,0.75) inset;
+-moz-box-shadow: 0px 0px 26px 53px rgba(35,31,32,0.75) inset;
+}
+
+@keyframes draw {
+  from{
+    transform: translateY(35%);
+  }
+  to {
+    transform: translateY(0%);
+    stroke-dashoffset: 0;
+  }
+}
+
+.radialGradient{
+  background: radial-gradient(50% 50% at 50% 50%, rgba(240, 183, 49, 0.514) 0%, rgba(240, 182, 49, 0.54) 18.65%, #231F20 100%);
+  filter: blur(50px);
+  background-blend-mode: lighten;
+}
+
+.slideLtoR{
+  animation: LtoR 1.5s ease;
+}
+
+.slideRtoL{
+  animation: RtoL 1.5s ease;
+}
+@keyframes LtoR {
+  from{
+    scale: 0;
+    transform: translateX(-50%);
+  }
+  to{
+    scale: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes RtoL {
+  from{
+    scale: 0;
+    transform: translateX(150%);
+  }
+  to{
+    scale: 1;
+    transform: translateX(0);
+  }
+}

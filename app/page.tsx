@@ -39,7 +39,7 @@ export default async function Home() {
         <Image className='md:absolute left-0 bottom-[0%] order-1 object-bottom md:h-[110%] w-auto mx-auto md:mx-0 z-10' src={'/guard.webp'} width={546} height={483} alt='On service security guard'></Image>
       </section>
 
-      <section className='overflow-hidden flex items-center bg-cover bg-no-repeat' style={{ backgroundImage: "url('/p-bg.webp')" }}>
+      <section className='overflow-hidden flex items-center bg-cover bg-bottom bg-no-repeat' style={{ backgroundImage: "url('/p-bg.webp')" }}>
         {/*         <Image className='absolute z-0 w-full h-auto' src={'/p-bg.webp'} alt='paragraph background' width={1440} height={701}></Image> */}
         <p className='relative z-10 md:w-2/3 text-sm xl:text-2xl text-justify mx-auto py-12 px-6 lg:px-12 md:py-48'>
           We will work around the clock every day of the week, making all the decisions through our complex system of surveillance cameras and qualified security guard personnel. We’ll be there when you arrive at 9 and also when you leave at 5. Public safety is always our priority. <br /> <br /> <em className='title not-italic font-bold'>Laws regulating security guards are taken seriously into account to our growth as a security agency. </em>
@@ -54,7 +54,7 @@ export default async function Home() {
           <h2 className='title font-bebas text-4xl md:text-8xl md:px-28 uppercase'>Our security services</h2>
           <h3 className=' text-xl md:text-5xl text-[#353535] font-medium uppercase leading-[20px]'>What we offer</h3>
           <p className='text-justify text-sm md:text-2xl md:px-28 mt-12'>
-            <span className='block text-black font-bold my-4'>We give you the ability to focus on your family and your business.</span>
+            <span className='block text-black font-bold my-4 text-center'>We give you the ability to focus on your family and your business.</span>
             As our new client, OSS will offer you security guard services along with a complimentary on-site security evaluation. Our security guard services have won the trust of Portland, Oregon’s residents and we have grown our client base with unbeatable service quality.
             <br /> <br />
             Our journey has been phenomenal as we have helped so many people feel safe while providing guards in their residential and commercial areas. Get in touch with us to elevate the security of your premises and keep yourself and your loved ones safe and protected.
@@ -63,18 +63,54 @@ export default async function Home() {
         <Image className=' w-full grayscale-[75%] mix-blend-luminosity' src={'/building.webp'} width={1440} height={793} alt='Buildings'></Image>
       </section>
 
-      <ServiceBanner image='/unarmed-guard.webp' direction={false} content={content[0]}>
-        <Image className='relative sm:w-4/12 md:w-auto h-auto max-h-[558px]' src={'/unarmed-guard.webp'} alt='On service guard' width={417} height={558} ></Image>
-      </ServiceBanner>
+      <section className='relative text-black text-center md:text-start w-full'>
+        <ServiceBanner direction={true} content={content[0]}>
+          <Image className='relative z-10' src={'/unarmed-guard.webp'} alt='On service guard' width={417} height={558} ></Image>
+        </ServiceBanner>
 
-      <ServiceBanner image='/armed-guard.webp' direction={true} content={content[1]}>
-        <Image className='relative sm:w-4/12 md:w-auto h-auto max-h-[558px]' src={'/armed-guard.webp'} alt='On service guard' width={417} height={558} ></Image>
-      </ServiceBanner>
+        <ServiceBanner direction={false} content={content[1]}>
+          <Image className='relative z-10' src={'/armed-guard.webp'} alt='On service guard' width={417} height={558} ></Image>
+        </ServiceBanner>
 
-      <ServiceBanner image='/patrol.webp' direction={false} content={content[2]}>
-        <Image className='relative md:w-3/6 h-auto max-h-[558px]' src={'/patrol.webp'} alt='On service guard' width={417} height={558} ></Image>
-      </ServiceBanner>
+        <ServiceBanner direction={true} content={content[2]}>
+          <Image className='relative min-h-[250px] lg:min-h-[350px] w-auto z-10' src={'/patrol.webp'} alt='On service guard' width={417} height={558} ></Image>
+        </ServiceBanner>
+      </section>
+{/*       <section className='text-black w-full'>
 
+        <article className='relative flex flex-col md:flex-row items-center justify-center gap-28 overflow-hidden'>
+          <div className='md:w-5/12'>
+            <h2 className='title text-8xl font-bebas'>{content[0].title}</h2>
+            <h3 className='text-4xl'>{content[0].subtitle}</h3>
+          </div>
+          <Image className='relative z-10' src={'/unarmed-guard.webp'} alt='On service service' width={417} height={558}></Image>
+          <FullDivider className='absolute bottom-0 right-64'></FullDivider>
+          <FullDivider className='absolute bottom-0 -right-64'></FullDivider>
+          <FullDivider className='absolute bottom-0 right-0'></FullDivider>
+        </article>
+
+        <article className='relative flex flex-col-reverse md:flex-row-reverse items-center justify-center gap-28 overflow-hidden'>
+          <div className='relative md:w-5/12 z-10 text-end'>
+            <h2 className='title text-8xl font-bebas'>{content[0].title}</h2>
+            <h3 className='text-4xl'>{content[0].subtitle}</h3>
+          </div>
+          <Image className='relative z-10' src={'/armed-guard.webp'} alt='On service service' width={417} height={558}></Image>
+          <FullDivider className='absolute bottom-0 left-64'></FullDivider>
+          <FullDivider className='absolute bottom-0 -left-64'></FullDivider>
+          <FullDivider className='absolute bottom-0 left-0'></FullDivider>
+        </article>
+
+        <article className='relative flex flex-col md:flex-row items-center justify-center gap-28 overflow-hidden'>
+          <div className='relative md:w-5/12 z-10'>
+            <h2 className='title text-8xl font-bebas'>{content[0].title}</h2>
+            <h3 className='text-4xl'>{content[0].subtitle}</h3>
+          </div>
+          <Image className='relative min-h-[280px] w-auto z-10' src={'/patrol.webp'} alt='On service service' width={417} height={558}></Image>
+          <FullDivider className='absolute bottom-0 right-64'></FullDivider>
+          <FullDivider className='absolute bottom-0 -right-64'></FullDivider>
+          <FullDivider className='absolute bottom-0 right-0'></FullDivider>
+        </article>
+      </section> */}
       <section className=' bg-black mt-4 md:mt-36 overflow-hidden py-12 md:py-24 bg-no-repeat bg-cover flex items-center justify-center' style={{ backgroundImage: "url('/guard-truck.webp')" }}>
         <article className='flex flex-col sm:flex-row justify-evenly items-center min-h-[500px] gap-8 p-8 lg:py-36 lg:pr-28 text-center md:text-start'>
           <div className=' basis-3/6'>

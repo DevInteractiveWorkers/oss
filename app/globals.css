@@ -31,7 +31,7 @@
 .drawPath {
   stroke-dasharray: 400%;
   stroke-dashoffset: 400%;
-  animation: draw 6s ease-out forwards;
+  animation: draw 4s ease-out forwards;
 }
 
 .drawShadow{

@@ -1,20 +1,12 @@
 {
     "content":[
         {
-            "title":"Service",
-            "link":"/service"
+            "title":"Recruitment",
+            "link":"/recruitment"
         },
         {
-            "title":"Industries",
-            "link":"/industries"
-        },
-        {
-            "title":"Services areas",
+            "title":"Services",
             "link":"/services"
-        },
-        {
-            "title":"Company",
-            "link":"/company"
         }
 
     ]

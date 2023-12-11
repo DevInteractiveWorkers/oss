@@ -9,7 +9,7 @@ import OSSIcon from './components/icons/oss';
 export default async function Home() {
   const content = serviceContent.content
   return (
-    <main className="flex flex-col items-center justify-between" >
+    <main className="flex flex-col items-center justify-between bg-white" >
       <IntroBanner></IntroBanner>
 
       <section className='overflow-hidden relative  z-0'>

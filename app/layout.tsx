@@ -19,7 +19,7 @@ export default async function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`relative ${montserrat.className}`}>
+      <body className={`relative ${montserrat.className} bg-[#231F20]`}>
         <Suspense>
           <NavBar className='relative'></NavBar>
         </Suspense>

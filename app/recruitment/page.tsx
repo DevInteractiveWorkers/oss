@@ -1,7 +1,7 @@
 import React from 'react'
 import ZebraPath from '../components/icons/zebra-path'
 import CarText from '../components/banner/car-behind-text'
-import FullDivider from './../components/icons/full-divider';
+import FormsComponent from '../components/forms';
 
 const RecruitmentPage = () => {
   return (
@@ -13,15 +13,7 @@ const RecruitmentPage = () => {
         <ZebraPath className=' mix-blend-soft-light drawPath'></ZebraPath>
       </article>
       <CarText></CarText>
-      <article className='relative bg-[#F0B631] text-black'>
-        <p className='w-2/3 mx-auto text-justify text-2xl py-24'>
-          We are always looking for top security services workers. We choose security guards checking their criminal records, and do a thorough background check to make sure they comply with licensing standards according to what state government and local government agencies have as their training requirements.
-          <br /><br />
-          Federal agencies have a high turnout these days, and any capable security guard can perform their former duties in the private sector through a security agency.
-        </p>
-        <FullDivider className='absolute -right-52 top-0 h-full'></FullDivider>
-        <FullDivider className='absolute -left-52 top-0 h-full'></FullDivider>
-      </article>
+    <FormsComponent></FormsComponent>
     </section>
   )
 }

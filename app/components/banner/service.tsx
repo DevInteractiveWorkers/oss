@@ -10,9 +10,9 @@ const ServiceBanner = ({direction, content, children }: { direction: boolean, co
           <h3 className='text-4xl'>{content.subtitle}</h3>
         </div>
         {children}
-        <FullDivider className={`absolute bottom-0 ${direction ? 'right-64 hidden xl:block' : 'left-64 hidden xl:block'}`}></FullDivider>
-        <FullDivider className={`absolute bottom-0 ${direction ? '-right-64 hidden md:block ' : ' hidden md:block -left-64'}`}></FullDivider>
-        <FullDivider className={`absolute bottom-0 ${direction ? 'right-0 hidden md:block' : ' hidden md:block left-0'}`}></FullDivider>
+        <FullDivider className={`absolute bottom-0 max-h-[400px] ${direction ? 'right-64 hidden xl:block' : 'left-64 hidden xl:block'}`}></FullDivider>
+        <FullDivider className={`absolute bottom-0 max-h-[400px] ${direction ? '-right-64 hidden md:block ' : ' hidden md:block -left-64'}`}></FullDivider>
+        <FullDivider className={`absolute bottom-0 max-h-[400px] ${direction ? 'right-0 hidden md:block' : ' hidden md:block left-0'}`}></FullDivider>
       </article>
     )
 }

@@ -111,7 +111,7 @@ That’s why our transportation and logistic facilities security guards will exe
         <div className='relative  pt-12'>
           <div className='absolute w-20 h-12 mt-5 bg-[#676868] rounded-lg'></div>
           <h3 className='relative ml-10 z-20 bg-[#353535] text-[#F0B631] font-semibold text-lg md:text-2xl inline-block px-6 py-2 rounded-lg'>Other</h3><br />
-          <h4 className='relative -mt-2.5 ml-8 z-10 bg-white font-bold text-[#4F4E4F] text-sm md:text-xl px-text-sm md:text-xl px-4 md:px-12  py-2 inline-block rounded-lg'>Car Dealership Security Services</h4>
+          <h4 className='relative -mt-2.5 ml-8 z-10 bg-white font-bold text-[#4F4E4F] text-sm md:text-xl px-4 md:px-12  py-2 inline-block rounded-lg'>Car Dealership Security Services</h4>
         </div>
         <p className='mb-8 py-8 md:px-20 text-justify text-[#353535] text-xs md:text-xl'>
         Car dealership agencies form part of the backbone of the American transportation industry. This is why making sure vehicles are taken care of, and that no outside threat comes in the way of these vital businesses. 

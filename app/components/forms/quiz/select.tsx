@@ -8,8 +8,8 @@ const QuizQuestions = ({ answer, section, answerNumber, selectedAnswer, setSelec
 
     return (
         <>
-            <Radio className='h-8 w-8 appearance-none border-black checked:border-transparent checked:bg-yellow-400' id={answer} name={`answers${section}`} value={answer} checked={selectedAnswer === answerNumber} onChange={handleChange} />
-            <Label className='text-4xl text-[#676868] capitalize px-4' htmlFor={answer}> {answer} </Label>
+            <Radio className='h-6 w-6 md:h-8 md:w-8 appearance-none border-black checked:border-transparent checked:bg-yellow-400' id={answer} name={`answers${section}`} value={answer} checked={selectedAnswer === answerNumber} onChange={handleChange} />
+            <Label className='text-lg md:text-4xl text-[#676868] capitalize px-4' htmlFor={answer}> {answer} </Label>
         </>
     )
 }

@@ -46,8 +46,8 @@ const QuizComponent = ({ quizAnswers, setQuizAnswers }: { quizAnswers: Answer[],
   }
 
   return (
-    <article className=' -mt-32 mb-36 w-2/3 mx-auto'>
-      <h2 className='uppercase flex items-center justify-center gap-8 p-4 mx-auto '> <span className='text-9xl title font-extrabold'>{questionNumber + 1}/{questions.length}</span> <legend className='text-5xl font-semibold '>{question.question}</legend></h2>
+    <article className=' -mt-8 mb-16 md:-mt-32 md:mb-36 w-11/12 md:w-2/3 mx-auto'>
+      <h2 className='uppercase flex items-center justify-center gap-8 p-4 mx-auto '> <span className='text-5xl md:text-9xl title font-extrabold'>{questionNumber + 1}/{questions.length}</span> <legend className='text-2xl md:text-5xl font-semibold '>{question.question}</legend></h2>
       <form className='bg-white rounded-3xl' onSubmit={(e)=>{ questions.length - 1 > questionNumber ? onSubmit(e) : null }}>
         <fieldset className='flex flex-col items-start justify-center p-16 my-8 gap-12'>
           {

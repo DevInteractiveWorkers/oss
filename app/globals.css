@@ -138,3 +138,12 @@
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 }
+
+.service-company{
+  background-image: url('/company-security.png');
+}
+@media (max-width:768px) {
+  .service-company{
+    background-image: none
+  }
+}

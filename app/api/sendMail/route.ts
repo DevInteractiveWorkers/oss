@@ -1,8 +1,8 @@
 'use server'
-import { getCurrentDate } from "@/app/utils/format";
 import nodemailer from "nodemailer";
 import { NextRequest, NextResponse } from "next/server";
 import { emailSignature } from './../../utils/requests';
+import { getCurrentDate } from './../../utils/format';
 
 
 export async function POST(req: NextRequest) {

@@ -29,7 +29,7 @@ const CompanyPage = () => {
             </div>
             <div>
               <h3 className='font-bold'>Website</h3>
-              www.OSS.com
+              onservicesecurity.com
 
             </div>
           </address>

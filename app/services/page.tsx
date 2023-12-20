@@ -31,7 +31,7 @@ const ServicesPage = () => {
           <span className='font-semibold text-lg md:text-3xl inline-block pt-4'>Patrol Services</span> <br /><br />
           Our team has guards that operate vehicles (also provided by us) that can better cover the properties whose size requires officers to patrol throughout the premises on the lookout for any potential threats. They will always be driven by someone with a driver's license. <br /><br />
           <span className='font-semibold text-lg md:text-3xl inline-block pt-4'>Fire Watch </span> <br /><br />
-          Accidents can happen at any moment, and you need the right professionals to be vigilant for the emergency protocols necessary to minimize human damage. They will also be ready to prevent this potential threat to the property by careful examination of the precinct to ensure this kind of tragedy doesn’t strike your business.
+          Accidents can happen at any moment, and you need the right professionals to be vigilant for the emergency protocols necessary to minimize human damage. They will also be ready to prevent this potential threat to the property by careful examination of the precinct to ensure this kind of tragedy doesn't strike your business.
 
         </p>
       </article>
@@ -70,7 +70,7 @@ We will not only make your clients feel safer, but everyone who works at the sho
           <h4 className='relative -mt-2.5 ml-8 z-10 bg-[#E6A50F] font-bold text-white text-sm md:text-xl md:px-12 px-4 py-3 md:py-2 inline-block rounded-lg'>Construction Sites Security</h4>
         </div>
         <p className='mb-8 py-8 md:px-20 text-justify text-black text-xs md:text-xl'>
-        Before, during, and after the work day, a construction site is a very sensible facility that needs to be well-guarded to protect your workers, equipment, and materials. Any loss can be detrimental to the project and can cost you money. That’s why construction security is key.
+        Before, during, and after the work day, a construction site is a very sensible facility that needs to be well-guarded to protect your workers, equipment, and materials. Any loss can be detrimental to the project and can cost you money. That's why construction security is key.
         </p>
         <h4 className='relative -mt-2.5 md:ml-8 z-10 bg-[#E6A50F] font-bold text-white text-sm md:text-xl px-4 md:px-12  py-2 inline-block rounded-lg'>Manufacturing Facilities Security</h4>
         <p className='mb-8 py-8 md:px-20 text-justify text-black text-xs md:text-xl'>
@@ -80,7 +80,7 @@ We will not only make your clients feel safer, but everyone who works at the sho
         <p className='mb-8 py-8 md:px-20 text-justify text-black text-xs md:text-xl'>
         Vehicles are the backbones of transportation services, and having them damaged or stolen would cripple any business that relies on them. Vandalism and theft are unpredictable tragedies that can hit anyone at any moment. Evidence will always be available to law enforcement thanks to our monitoring of security camera data. <br /> <br />
 
-That’s why our transportation and logistic facilities security guards will exercise their rigorous training to make sure that nothing of the sort affects your workers and facilities. We will check anything that comes in or goes out, and nothing will ever pass our eyes and affect your workers' compensation. 
+That's why our transportation and logistic facilities security guards will exercise their rigorous training to make sure that nothing of the sort affects your workers and facilities. We will check anything that comes in or goes out, and nothing will ever pass our eyes and affect your workers' compensation. 
         </p>
         </div>
       </article>
@@ -93,15 +93,15 @@ That’s why our transportation and logistic facilities security guards will exe
           <h4 className='relative -mt-2.5 ml-8 z-10 bg-[#E6A50F] font-bold text-[#4F4E4F] text-sm md:text-xl px-4 md:px-12  py-2 inline-block rounded-lg'>Hotel Security Services</h4>
         </div>
         <p className='mb-8 py-8 md:px-20 text-justify text-white text-xs md:text-xl'>
-        Staying night outside your home can be frightening. That’s why our hotel security services officers will make sure that your guests can feel safe staying in your hotel for a night or a whole week. Through 24/7 coverage, our officers will be there to give your guests directions, guard the premises, make sure no damage comes to the establishment, and protect the property against outside threats. Law enforcement can get in the way of a person in your hotel, that's why hiring a security agency is the safest way to go.
+        Staying night outside your home can be frightening. That's why our hotel security services officers will make sure that your guests can feel safe staying in your hotel for a night or a whole week. Through 24/7 coverage, our officers will be there to give your guests directions, guard the premises, make sure no damage comes to the establishment, and protect the property against outside threats. Law enforcement can get in the way of a person in your hotel, that's why hiring a security agency is the safest way to go.
         </p>
         <h4 className='relative -mt-2.5 md:ml-8 z-10 bg-[#E6A50F] font-bold text-[#4F4E4F] text-sm md:text-xl px-4 md:px-12  py-2 inline-block rounded-lg'>Apartments and Residential Areas Services Private Security Guards</h4>
         <p className='mb-8 py-8 md:px-20 text-justify text-white text-xs md:text-xl'>
-        Anything that makes you feel safer at home is welcome, that’s why our apartments and residential areas security guards find their purpose in making your life feel easier. They understand the importance of their assignment and will use their training to become a part of your daily life, someone you won’t notice except for when you need them, and when that happens, they’ll be there for you.
+        Anything that makes you feel safer at home is welcome, that's why our apartments and residential areas security guards find their purpose in making your life feel easier. They understand the importance of their assignment and will use their training to become a part of your daily life, someone you won't notice except for when you need them, and when that happens, they'll be there for you.
         </p>
         <h4 className='relative -mt-2.5 md:ml-8 z-10 bg-[#E6A50F] font-bold text-[#4F4E4F] text-sm md:text-xl px-4 md:px-12  py-2 inline-block rounded-lg'>Private Home Security Services</h4>
         <p className='mb-8 py-8 md:px-20 text-justify text-white text-xs md:text-xl'>
-        You can never be too safe! Even at your own house you never know when something bad will happen to you. That’s why private home security guards will make a great improvement to your home life. Not only will they be there to defend you and your family against any outside threats, but also assist you in your day-to-day routine as an employer.
+        You can never be too safe! Even at your own house you never know when something bad will happen to you. That's why private home security guards will make a great improvement to your home life. Not only will they be there to defend you and your family against any outside threats, but also assist you in your day-to-day routine as an employer.
         </p>
         </div>
       </article>
@@ -119,12 +119,12 @@ Through 24/7 surveillance and a capable security guard, you can be sure that not
         </p>
         <h4 className='relative -mt-2.5 md:ml-8 z-10 bg-white font-bold text-[#4F4E4F] text-sm md:text-xl px-4 md:px-12  py-2 inline-block rounded-lg'>Public Area Security Services</h4>
         <p className='mb-8 py-8 md:px-20 text-justify text-[#353535] text-xs md:text-xl'>
-        That’s why our public areas security guard will be specially trained to handle all these sorts of situations. With consideration and human decency at the forefront of what the harmless individuals that wander into your property deserve, and the firmness and decisiveness required to deal with criminals and actual threats. Most states require a security guard to go through annual training to serve as officers.
+        That's why our public areas security guard will be specially trained to handle all these sorts of situations. With consideration and human decency at the forefront of what the harmless individuals that wander into your property deserve, and the firmness and decisiveness required to deal with criminals and actual threats. Most states require a security guard to go through annual training to serve as officers.
         </p>
         <h4 className='relative -mt-2.5 md:ml-8 z-10 bg-white font-bold text-[#4F4E4F] text-sm md:text-xl px-4 md:px-12  py-2 inline-block rounded-lg'>
 Colleges, Universities, and Schools Security Services</h4>
         <p className='mb-8 py-8 md:px-20 text-justify text-[#353535] text-xs md:text-xl'>
-        Students are young and reckless, and there are too many of them! That’s why private security for education centers is ideal. Instead of creating tensions by bringing in law enforcement. You have to call our education center security officers. They are trained to merge into the atmosphere of the place they guard, and your facility will thank you for making this call.
+        Students are young and reckless, and there are too many of them! That's why private security for education centers is ideal. Instead of creating tensions by bringing in law enforcement. You have to call our education center security officers. They are trained to merge into the atmosphere of the place they guard, and your facility will thank you for making this call.
         </p>
         </div>
       </article>

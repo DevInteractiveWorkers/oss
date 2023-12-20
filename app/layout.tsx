@@ -9,7 +9,7 @@ const montserrat = Montserrat({subsets:['latin']})
 
 export const metadata: Metadata = {
   title: 'On Service Security',
-  description: 'Guard up',
+  description: 'Stay safe',
 }
 
 export default async function RootLayout({

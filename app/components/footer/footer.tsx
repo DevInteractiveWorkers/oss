@@ -19,7 +19,6 @@ const FooterComponent = () => {
             })}
           </Footer.LinkGroup>
           <Footer.LinkGroup className='text-white lg:justify-between items-center justify-center w-full gap-4'>
-            <Footer.Copyright className='text-white' href="#" by="Interactive Workers ™" year={2023} />
             <div className='flex flex-col md:flex-row justify-evenly items-center text-xs md:text-base '>
               <Footer.Link className='' href={'#'}>Privacy Policy</Footer.Link>
               <span className='hidden md:inline md:mr-6'>•</span>

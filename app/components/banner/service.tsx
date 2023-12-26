@@ -6,8 +6,8 @@ const ServiceBanner = ({direction, content, children }: { direction: boolean, co
     return (
         <article className={`relative flex flex-col  ${direction ? 'md:flex-row' : 'md:flex-row-reverse'} items-center justify-center overflow-hidden`}>
         <div className={`relative md:w-5/12 z-10 p-4 ${direction ? '' : 'md:text-end'}`}>
-          <h2 className='title text-8xl font-bebas'>{content.title}</h2>
-          <h3 className='text-4xl'>{content.subtitle}</h3>
+          <h2 className='title text-5xl md:text-8xl font-bebas'>{content.title}</h2>
+          <h3 className='text-xl md:text-4xl'>{content.subtitle}</h3>
         </div>
         {children}
         <FullDivider className={`absolute bottom-0 max-h-[400px] ${direction ? 'right-64 hidden xl:block' : 'left-64 hidden xl:block'}`}></FullDivider>

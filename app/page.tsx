@@ -65,15 +65,15 @@ export default async function Home() {
 
       <section className='relative text-black text-center md:text-start w-full'>
         <ServiceBanner direction={true} content={content[0]}>
-          <Image className='relative z-10' src={'/unarmed-guard.webp'} alt='On service guard' width={417} height={558} ></Image>
+          <Image className='relative z-10 w-1/3 lg:w-auto' src={'/unarmed-guard.webp'} alt='On service guard' width={417} height={558} ></Image>
         </ServiceBanner>
 
         <ServiceBanner direction={false} content={content[1]}>
-          <Image className='relative z-10' src={'/armed-guard.webp'} alt='On service guard' width={417} height={558} ></Image>
+          <Image className='relative z-10 w-1/3 lg:w-auto' src={'/armed-guard.webp'} alt='On service guard' width={417} height={558} ></Image>
         </ServiceBanner>
 
         <ServiceBanner direction={true} content={content[2]}>
-          <Image className='relative min-h-[250px] lg:min-h-[350px] w-auto z-10' src={'/patrol.webp'} alt='On service guard' width={417} height={558} ></Image>
+          <Image className='relative w-2/3 lg:min-h-[350px] lg:w-auto z-10' src={'/patrol.webp'} alt='On service guard' width={417} height={558} ></Image>
         </ServiceBanner>
       </section>
 {/*       <section className='text-black w-full'>

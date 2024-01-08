@@ -21,11 +21,11 @@ const CompanyPage = () => {
             </div>
             <div>
               <h3 className='font-bold'>Phone numbers</h3>
-              (000) 000-0000
+              (971) 250-3535
             </div>
             <div>
               <h3 className='font-bold'>Email</h3>
-              Info@OSS.com
+              info@onservicesecurity.com
             </div>
             <div>
               <h3 className='font-bold'>Website</h3>

@@ -26,11 +26,11 @@ const ServicesPage = () => {
 
           <span className='font-semibold text-lg md:text-3xl inline-block pt-4'>Standing Security Guards</span> <br /><br />
           Our unarmed security guards offer detailed-oriented surveillance that makes our locations safer. They provide attentiveness and highly advanced camera systems a feeling of safety and security. Military personnel look for jobs being officers.
-          They prioritize creating ties with the community as part of their job and integrating themselves into the workforce of the locations that contract our officers.  <br /><br />
+          They prioritize creating ties with the community as part of their job and integrating themselves into the workforce of the locations that contract our officers.<br /><br />
 
           <span className='font-semibold text-lg md:text-3xl inline-block pt-4'>Patrol Services</span> <br /><br />
           Our team has guards that operate vehicles (also provided by us) that can better cover the properties whose size requires officers to patrol throughout the premises on the lookout for any potential threats. They will always be driven by someone with a driver&apos;s license. <br /><br />
-          <span className='font-semibold text-lg md:text-3xl inline-block pt-4'>Fire Watch </span> <br /><br />
+          <span className='font-semibold text-lg md:text-3xl inline-block pt-4'>Fire Watch</span> <br /><br />
           Accidents can happen at any moment, and you need the right professionals to be vigilant for the emergency protocols necessary to minimize human damage. They will also be ready to prevent this potential threat to the property by careful examination of the precinct to ensure this kind of tragedy doesn&apos;t strike your business.
 
         </p>
@@ -53,11 +53,11 @@ const ServicesPage = () => {
 
 With thousands of people coming and going in every which way at all business hours, security is the key to having your clients feel safe while they go shopping. Our shopping center security guards are trained to give indications, patrol the building and make sure no vandalism or shoplifting occurs. We protect every vehicle and search for any wrongdoing.
 
-We will not only make your clients feel safer, but everyone who works at the shopping center will know that they have someone to count on daily. Making sure that communication improves the service we provide is a priority for us at On Service Security. 
+We will not only make your clients feel safer, but everyone who works at the shopping center will know that they have someone to count on daily. Making sure that communication improves the service we provide is a priority for us at On Service Security.
         </p>
         <h4 className='relative -mt-2.5 md:ml-8 z-10 bg-white font-bold text-black text-sm md:text-xl px-4 md:px-12  py-2 inline-block rounded-lg'>Hospital and Healthcare Facilities Security</h4>
         <p className='mb-8 py-4 md:py-8 md:px-20 text-justify text-white text-xs md:text-xl'>
-        Our Hospital and Healthcare Facilities Security are trained to not only provide patrolling and surveillance to the building but also to manage the seriousness and weight of their role of being there while people are feeling very strong emotions. 
+        Our Hospital and Healthcare Facilities Security are trained to not only provide patrolling and surveillance to the building but also to manage the seriousness and weight of their role of being there while people are feeling very strong emotions.
         </p>
         </div>
       </article>
@@ -80,7 +80,7 @@ We will not only make your clients feel safer, but everyone who works at the sho
         <p className='mb-8 py-8 md:px-20 text-justify text-black text-xs md:text-xl'>
         Vehicles are the backbones of transportation services, and having them damaged or stolen would cripple any business that relies on them. Vandalism and theft are unpredictable tragedies that can hit anyone at any moment. Evidence will always be available to law enforcement thanks to our monitoring of security camera data. <br /> <br />
 
-That&apos;s why our transportation and logistic facilities security guards will exercise their rigorous training to make sure that nothing of the sort affects your workers and facilities. We will check anything that comes in or goes out, and nothing will ever pass our eyes and affect your workers&apos; compensation. 
+That&apos;s why our transportation and logistic facilities security guards will exercise their rigorous training to make sure that nothing of the sort affects your workers and facilities. We will check anything that comes in or goes out, and nothing will ever pass our eyes and affect your workers compensation.
         </p>
         </div>
       </article>
@@ -115,7 +115,7 @@ That&apos;s why our transportation and logistic facilities security guards will 
         </div>
         <p className='mb-8 py-8 md:px-20 text-justify text-[#353535] text-xs md:text-xl'>
         Car dealership agencies form part of the backbone of the American transportation industry. This is why making sure vehicles are taken care of, and that no outside threat comes in the way of these vital businesses. 
-Through 24/7 surveillance and a capable security guard, you can be sure that nothing and no one will come in or out without us noticing it and informing you. Security cameras and regular inspections by our guards will make your concerns a thing of the past. 
+Through 24/7 surveillance and a capable security guard, you can be sure that nothing and no one will come in or out without us noticing it and informing you. Security cameras and regular inspections by our guards will make your concerns a thing of the past.
         </p>
         <h4 className='relative -mt-2.5 md:ml-8 z-10 bg-white font-bold text-[#4F4E4F] text-sm md:text-xl px-4 md:px-12  py-2 inline-block rounded-lg'>Public Area Security Services</h4>
         <p className='mb-8 py-8 md:px-20 text-justify text-[#353535] text-xs md:text-xl'>

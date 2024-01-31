@@ -113,8 +113,8 @@ export default async function Home() {
       </section> */}
       <section className=' bg-black mt-4 md:mt-36 overflow-hidden py-12 md:py-24 bg-no-repeat bg-cover flex items-center justify-center' style={{ backgroundImage: "url('/guard-truck.webp')" }}>
         <article className='flex flex-col sm:flex-row justify-evenly items-center min-h-[500px] gap-8 p-8 lg:py-36 lg:pr-28 text-center md:text-start'>
-          <div className=' basis-3/6'>
-            <h3 className=' text-2xl lg:text-6xl font-bebas'>SECURITY GUARD COMPANY portland, oregon</h3>
+          <div className=' basis-4/6 px-2'>
+            <h3 className=' text-2xl lg:text-6xl font-bebas'>SECURITY GUARD COMPANY on <address className='inline not-italic'>portland, oregon</address> </h3>
             <p className=' text-sm lg:text-2xl'> <span className='title font-bold'>On Service Security (OSS)</span> is a full-service security guard company in Portland providing services using uniformed armed and unarmed security officers for residential, retail, industrial, and commercial properties.
 
               OSS also offers solutions in implementing additional security measures and processes such as security patrols, loss prevention, fire watch, and executive protection.</p>

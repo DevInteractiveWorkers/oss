@@ -18,14 +18,14 @@ const FooterComponent = () => {
               )
             })}
           </Footer.LinkGroup>
-          <Footer.LinkGroup className='text-white lg:justify-between items-center justify-center w-full gap-4'>
-            <div className='flex flex-col md:flex-row justify-evenly items-center text-xs md:text-base '>
+          <Footer.LinkGroup className='text-white lg:justify-between items-center justify-center gap-4 text-xs md:text-base '>
+            
               <Footer.Link className='' href={'#'}>Privacy Policy</Footer.Link>
               <span className='hidden md:inline md:mr-6'>•</span>
               <Footer.Link className='' href={'#'}>Security</Footer.Link>
               <span className='hidden md:inline md:mr-6'>•</span>
               <Footer.Link className='mr-0' href={'#'}>Terms and conditions</Footer.Link>
-            </div>
+            
           </Footer.LinkGroup>
         </div>
       </div>

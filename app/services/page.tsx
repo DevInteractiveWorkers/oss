@@ -1,21 +1,13 @@
 import React from 'react'
-import Lock from '../components/icons/lock'
-import Image from 'next/image'
-import HandBg from '../components/icons/hand-bg'
+import HandLock from '../components/services/hand-lock'
 
 const ServicesPage = () => {
   return (
     <section className='pt-16'>
-      <article className='relative mt-20 md:my-32'>
-        <h1 className='title text-6xl md:text-8xl font-bebas text-center p-4'>Services</h1>
-        <Lock className='absolute md:-top-[20%] lg:-top-[55%] left-[12.5%] w-1/6 max-w-[209px] hidden md:block mt-8'></Lock>
-        <div className='relative hidden md:block mt-8'>
-          <Image className='absolute w-1/3 z-10' src={"/hand.png"} alt='oss hand' height={348} width={512}></Image>
-          <HandBg className='absolute lg:-left-8 lg:-top-2 w-4/12 lg:p-8'></HandBg>
-        </div>
-      </article>
+      
+      <HandLock></HandLock>
 
-      <article className='mx-auto text-black bg-no-repeat bg-cover' style={{ backgroundImage: "url('/services-bg.png')"}}>
+      <article className='mx-auto text-black bg-no-repeat bg-cover' style={{ backgroundImage: "url('/services-bg.png')" }}>
         <p className='md:w-4/6 mx-auto p-8 md:p-20 md:pt-32 text-justify text-white text-xs md:text-xl font'>
           On Service Security provides the best security guards. We work 24/7, all year round. They are trained in every requirement that may present themselves and are committed to ensuring the well-being of the locations we serve. Before calling the police, employers might benefit from identification screening by a person identified with the department within your office buildings. <br /><br />
 

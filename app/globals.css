@@ -80,6 +80,22 @@
   animation: bgLtoR 3s ease-out ;
 }
 
+.slideBottomLefttoRightTop0{
+  animation: BottomLefttoRightTop0 1.5s ease-out;
+}
+
+.slideBottomLefttoRightTop1{
+  animation: BottomLefttoRightTop1 1.5s ease-out;
+}
+
+.slideBottomUp{
+  animation: BottomUp 2s ease-out;
+}
+
+.slideBottomUp1{
+  animation: BottomUp1 4s ease-out;
+}
+
 @keyframes bgLtoR {
   from{
     background-position-x: -200px;
@@ -120,6 +136,54 @@
   }
 }
 
+@keyframes BottomLefttoRightTop0 {
+  from{
+    transform: translate(-50%,50%);
+  }
+  to{
+    transform: translate(0,0);
+  }
+}
+
+
+@keyframes BottomLefttoRightTop1 {
+  from{
+    transform: translate(-75%,75%);
+    opacity: 0.5;
+  }
+  to{
+    opacity: 1;
+    transform: translate(0,0);
+  }
+}
+
+@keyframes BottomUp {
+  from{
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes BottomUp1 {
+  0%{
+    opacity: 0;
+    scale: 0.2;
+    transform: translateY(75%);
+  }
+  60%{
+    opacity: 1;
+    scale: 1;
+  }
+  100%{
+    opacity: 0;
+    scale: 0;
+    transform: translateY(0);
+  }
+}
 
 @keyframes fadeIn {
   from{
